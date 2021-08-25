@@ -1,0 +1,50 @@
+{"intents":
+    [
+        {
+            "tag": "greetings",
+            "patterns": ["Hey", "Hello", "What's up", "Hi"],
+            "responses": ["Hello", "Hello, What can I do for you?"]
+
+        },
+        {
+            "tag": "feedback",
+            "patterns" : ["feedback","I want to provide feedback"],
+            "responses" : ["Ok", "sure"]
+        },
+        {
+            "tag": "admission",
+            "patterns": ["Admission","admission", "I want admission", "I want to get admitted"],
+            "responses": ["ofcourse", "great choice"]
+        },
+        {
+            "tag": "electronics",
+            "patterns": ["in electronics", "electronics", "electronics and communication", "elex"],
+            "responses": ["great", "good choice"]
+
+        },
+        {
+            "tag": "computer",
+            "patterns": ["in computer", "computer", "computer engineering", "comp"],
+            "responses": ["great", "good choice"]
+
+        },
+        {
+            "tag": "civil",
+            "patterns": ["in civil", "civil", "civil engineering"],
+            "responses": ["great", "good choice"]
+
+        },
+        {
+            "tag":"find",
+            "patterns":["can i meet","where can i find","where is"],
+            "responses":""
+        },
+        {
+            "tag":"thank",
+            "patterns":["ok", "thanks", "thankyou"],
+            "responses": ""
+        }
+
+
+    ]
+}
